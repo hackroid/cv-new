@@ -1,6 +1,6 @@
 # Hackroid's CV >_<
 
-##About
+## About
 
 Hackroid's latest version resume made with XeLaTeX. It's forked from [**adamyi/cv**](https://github.com/adamyi/cv) under MIT license.
 
@@ -14,7 +14,7 @@ Run `make both` to create the PDF.
 
 >  To compile, please run `build`. To recompile, please run `build clean` first.
 
-##Dependencies
+## Dependencies
 
 * TikZ (header)
 * XeTex and fontspec (custom fonts)
