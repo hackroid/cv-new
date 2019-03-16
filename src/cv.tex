@@ -1,5 +1,8 @@
 \documentclass[hidelinks__VERSION__]{adamyi-cv}
-\usepackage[UTF8]{ctex}
+\usepackage{fontspec}
+\newfontfamily{\hei}{STHeiti-Light}
+\newfontfamily{\heir}{STHeiti}
+%\usepackage[UTF8]{ctex}
 \DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
 \DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
 \begin{document}
@@ -7,36 +10,36 @@
 \revision{__REVISION__}
 \footertext{This version was compiled on \today\ at \DTMcurrenttime. Source code available at \href{https://github.com/adamyi/cv}{https://github.com/adamyi/cv} under MIT license.}
 
-\header{赵}{ 博弘}{本科 | 南方科技大学}
+\header{\hei 赵}{ \hei 博弘}{\hei 本科 | 南方科技大学}
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{aside} % In the aside, each new line forces a line break
-\section{联络方式}
+\section{\heir 联络方式}
 (+86)17620412037
 ~
 \href{mailto:ooozbh@gmail.com}{ooozbh@gmail.com}
 \href{https://hackroid.com}{https://hackroid.com}
 ~
 \href{https://github.com/hackroid}{GitHub: hackroid}
-\href{https://www.linkedin.com/in/%E5%8D%9A%E5%BC%98-%E8%B5%B5-b7ab09136/}{LinkedIn: Bohong-Zhao}
-\href{https://www.facebook.com/Hackro1d}{Facebook: Hackroid}
-\section{语言能力}
-中文 \textbf{母语}
-英语 \textbf{流畅}
-日语 \textbf{初学}
-\section{编程}
-\textbf{熟练}
+\href{https://www.linkedin.com/in/%E5%8D%9A%E5%BC%98-%E8%B5%B5-b7ab09136/}{\hei 领英\textrm{: Bohong-Zhao}}
+\href{https://www.facebook.com/Hackro1d}{\hei 脸书\textrm{: Hackroid}}
+\section{\heir 语言能力}
+{\hei 中文 \textbf{\hei 母语}
+\hei 英语 \textbf{\hei 流畅}
+\hei 日语 \textbf{\hei 初学}}
+\section{\heir 编程}
+\textbf{\hei 熟练}
 {\color{red} $\varheart$} Python
 Java, C++
 CSS3 \& HTML5
-\textbf{了解}
+\textbf{\hei 了解}
 Kotlin, Flutter, XML
 Swift, Bash/Shell
 SQL, PHP, JavaSciprt
-MATLAB, \LaTeX， Spim
+MATLAB, \LaTeX, Spim
 \section{IDE\&Editor}
 {\color{red} $\varheart$} PyCharm
 PHPStorm
@@ -44,7 +47,6 @@ PHPStorm
 {\color{red} $\varheart$} VSCode
 Vim
 Sublime
-\LaTeX
 \versionsection
 \end{aside}
 
@@ -52,24 +54,31 @@ Sublime
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\section{education}
+\section{\heir 教育\heir 经历}
 
 \begin{entrylist}
 
 %------------------------------------------------
 
 \entry
-{\href{https://unsw.edu.au}{University of New South Wales}, Sydney Australia}
-{Jul. 2018 -- Sep. 2021}
-{\emph{\textbf{B.S.} in Computer Science}\\
-CS course WAM: 97.5/100, relavent courses: \emph{Introduction to Programming} (96/100 HD), \emph{Data Structures and Algorithms} (99/100 HD), \emph{System and Software Security Assessment} (unofficial student), \emph{Digital Forensics and Incident Response} (unofficial student), \emph{Software Engineering Fundamentals} (currently taking), \emph{Web Application Security and Testing} (currently taking), \emph{Database Systems} (currently taking)
+{\href{https://www.sustech.edu.cn/}{\heir 南方科技大学(SUSTech)}, \hei 中国广东深圳}
+{2016.09 -- 2020.07}
+{\hei \emph{\textbf{\hei 本科} 计算机科学与工程}\\
+在\href{http://cse.sustc.edu.cn/en/people/view/people_id/55/sort_id/9/pid/}{\hei 石渕久生}导师课题组下研究基于演化算法的多目标优化问题
 }
 
 \entry
-{\href{http://beijing101.com}{Beijing 101 High School}, Beijing China}
-{Sep. 2012 - Jul. 2018}
-{\emph{\textbf{Qian Xuesen} Experimental Class}\\
-Relevant positions: Founding Director of the Technology Department of the Student Union
+{\href{http://bayims.cn/}{\heir 北京市八一学校}, \hei 中国北京}
+{2013.09 -- 2016.07}
+{\hei \emph{\textbf{\heir 第一} 理科实验班}\\
+主要兴趣为数学竞赛
+}
+
+\entry
+{\href{http://beijing101.com}{\heir 北京一零一学校}, \hei 中国北京}
+{2010.09 -- 2013.07}
+{\hei \emph{\textbf{\heir 第一} \hei 理科实验班}\\
+主要兴趣为信息学奥林匹克竞赛 (NOIP), 曾在2010年和2011年两次获得普及组一等奖.
 }
 
 \end{entrylist}
@@ -78,22 +87,28 @@ Relevant positions: Founding Director of the Technology Department of the Studen
 %	RESEARCH SECTION
 %----------------------------------------------------------------------------------------
 
-\section{research}
+\section{\heir 学习\heir 与实习项目经历}
 
 \begin{entrylist}
 
 %------------------------------------------------
 
 \entry
-{\href{http://cmuchimps.org/}{CHIMPS Lab}, \href{https://www.hcii.cmu.edu/}{Human-Computer Interaction Institute}, \href{https://www.cmu.edu/}{Carnegie Mellon University}}
-{Dec. 2016 -- Present}
-{\emph{Research Assistant}
+{\href{https://www.ubc.ca/}{\heir 加拿大英属哥伦比亚大学（UBC）}}
+{2018.07 -- 2018.08}
+{\emph{\hei 暑期项目}
 \begin{itemize}
-\item Came up with the core architecture and co-developed \href{https://github.com/MessageOnTap}{MessageOnTap}, an Android framework for developers to develop IM plugins, which will be open sourced in a few months, as one of the 4 core members in a team of 12 instructed by PhD student \href{mailto:fanglin@cmu.edu}{Fanglin Chen}.
-\item Developed an online system and hired 2,500+ Amazon mTurk workers to annotate sensitive information in 65,000+ pieces of data for us to train a deep learning PII (Personally Identifiable Information) scrubbing algorithm (DeepScrub).
-\item Trained a Word2Vec model with Reddit data to predict apps user might use.
-\item Co-designed a semantic-structured graph database (Pocket) for mobile personal data.
-\item Run the internal Git, Maven \& Jenkins server used by our team.
+\item {\hei 主要学习算法设计与网络应用开发}
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{\href{http://www.doodod.com/}{\heir 独到科技（北京）有限公司}}
+{2017.08}
+{\emph{\hei 兼职开发助理}
+\begin{itemize}
+\item {\hei 在独到科技工作并协助开发了公司项目使用的用户画像系统}
 \end{itemize}}
 
 %------------------------------------------------
@@ -104,35 +119,17 @@ Relevant positions: Founding Director of the Technology Department of the Studen
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{awards}
+\section{\heir 获奖\heir 经历}
 
 \begin{entrylist}
 
 %------------------------------------------------
 
 \entry
-{Second Place}
-{2018}
-{\emph{\textbf{Cyber Security Challenge Australia (CySCA)}}\\
-CySCA is Australia’s only national cybersecurity competition (CTF), run by The Federal Government’s Australian Cyber Security Centre and AustCyber, Telstra, PwC, Cisco, Microsoft, Commonwealth Bank, Splunk, BAE Systems, and HackLabs. I participated in UNSW3, a team of 4 students, and got the second place among 109 teams across Australia (427 students). The award includes flights and accommodation to Kiwicon 2018 in Wellington, New Zealand, and an electronic device of my choice.
-}
-
-%------------------------------------------------
-
-\entry
-{First Place}
-{2018}
-{\emph{\textbf{UNSW Security Society Capture the Flag}}\\
-It's UNSW Security Society's largest internal CTF competition. As a first-time CTF player, I got first place out of 30 teams.
-}
-
-%------------------------------------------------
-
-\entry
-{Gold Medal}
-{2015}
-{\emph{\textbf{International Exhibition of Inventions of Geneva}}\\
-The exhibition was organized by the Swiss Federal Government, during which I received a gold medal for designing a particulate matter detector using the light scattering method during junior/middle school. During the exhibition, I also received a Special Award from the \href{http://www.tia-tw.net/}{Taiwan Invention Association}.
+{\heir 本科生奖学金}
+{2016.09}
+{\hei \emph{\textbf{\hei 南方科技大学}}\\
+对入学时优秀的新生进行嘉奖以资鼓励
 }
 
 %------------------------------------------------
@@ -141,86 +138,98 @@ The exhibition was organized by the Swiss Federal Government, during which I rec
 
 \pagebreak
 
+
 %----------------------------------------------------------------------------------------
 %	PROJECTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{projects}
+\section{\heir 项目\heir 经验}
 
 \begin{entrylist}
 
 %------------------------------------------------
 
 \entry
-{White Hat Hacking (Ethical Hacking/Cybersecurity Research)}
-{Feb. 2015 -- Present}
-{\begin{itemize}
-\item Discovered 10+ vulnerabilities in various bug bounty programs like Atlassian's.
-\item Received 4,000 CNY and a Huawei Smart Bracelet as award for discovering a zero-day vulnerability of eYou, one of the two most widely-used email server software in China.
-\end{itemize}}
+{\href{https://github.com/hackroid/pMOEA-D}{\heir MOEA/D 算法的并行化实现及其在特征选择上的应用}}
+{2018.09 -- \hei 至今}
+{\emph{\hei 进行中}
+\begin{itemize}
+    \item \hei 语言：Python
+\end{itemize}
+{\hei 在\href{http://cse.sustc.edu.cn/en/people/view/people_id/55/sort_id/9/pid/}{\hei 石渕久生}教授指导下的本科生团队科研项目。特征选择在数据挖掘与机器学习中占有举足轻重的地\\位，而近年来演化计算在特征选择问题上取得了显著的进展。本项目旨在为 MOEA/D 算法提供并行化\\环境，使用孤岛模型，探究发现对于区块间高效的交流方式以提高整体上获取帕累托最优解集的速度\\，并用特征选择问题来验证我们的想法。
+}}
 
 %------------------------------------------------
 
 \entry
-{Google Developers Community Programs}
-{Jun. 2016 -- Present}
-{\emph{Translator (Volunteer)}
+{\heir Snappat -- 基于解谜的新型社交方式}
+{2019.02 -- \hei 至今}
+{\emph{\hei 进行中}
 \begin{itemize}
-\item Translated English subtitles of Google Developer videos including I/O keynotes into Chinese for official Youtube, Youku and Bilibili.
-\item Invited to Google I/O in San Jose as a Community Partner.
-\item Reviewed and translated some of Google's official blog posts and announcements before releasing.
-\item Volunteered at/Co-organized several local events like TensorFlow Dev Summit 2018 Extended Beijing at Google Beijing Office.
-\item Co-developed Flutter's official website in China (flutter-io.cn).
-\end{itemize}}
+    \item \hei 语言：Java
+    \item \hei 框架：安卓原生
+\end{itemize}
+{\hei 这是一个正在进行的软件工程课程项目，我与其他五名组员一同开发一个社交手机应用，其囊括解谜\\游戏与机器学习等诸多特性。
+}}
 
 %------------------------------------------------
 
 \entry
-{Bojangles}
-{Aug. 2018 -- Present}
-{\emph{Developer}
+{\href{https://github.com/hackroid/MqttSensorDemo}{\heir 传感器数据实时传输应用}}
+{2018.09 -- Jan. 2019.01}
+{\emph{\hei 已完成}
 \begin{itemize}
-\item Co-developing a tool to help UNSW students plan their course schedule in a team of 4 within the \href{https://www.csesoc.unsw.edu.au/}{CSE Society}.
-\item In charge of the algorithm to generate possible timetables, and came up with a PoC with a Genetic Algorithm.
-\end{itemize}}
+    \item \hei 语言：Java
+    \item \hei 框架：安卓原生
+    \item \hei 负责：全栈开发与服务器维护
+\end{itemize}
+{\hei 基于 MQTT 协议搭建一个安卓应用使其能够在多终端之间互相传送传感器实时数据。MQTT 是一个轻\\量级的消息推送协议，尤其在于其便于使用并对延迟进行了优化。我在这个计算机网络课程项目中主\\要学习了 MQTT 协议的通信原理。
+}}
+
+%------------------------------------------------
+
+\entry
+{\href{https://github.com/zhaoweizhong/Faculty-Reservation}{\heir 导师预约系统}}
+{2018.09 -- 2019.01}
+{\emph{\hei 已完成}
+\begin{itemize}
+    \item \hei 语言：PHP
+    \item \hei 框架：Laravel
+    \item \hei 负责：后端PHP爬虫，从 researchgate 上爬取研究人员最近发表文章数据
+\end{itemize}
+{\hei 在一个五人小组内共同开发一个系统以帮助南方科技大学的学生和教职工管理他们的预约。通常来说\\学生与导师之间的预约是靠邮件进行联系的，而单一的邮件系统无法进行高效的时间管理，有时也会\\漏掉一些邮件或者忘记已经预约好的事情。此系统可以清晰地向用户呈现预约对象的可利用时间，高\\效地规划管理自己的预约事件，极大减少了通信交流过程中可能产生的时间消耗与错误。本系统包括\\一些常用功能比如用户注册登录信息修改，预约管理，近期项目搜索等。
+}}
 
 
 %------------------------------------------------
 
 \entry
-{\href{https://www.munpanel.com}{MUNPANEL}}
-{Nov. 2016 -- Jul. 2017}
-{\emph{Founder \& Chief Technology Officer}
+{\heir 地震可视化软件}
+{2017.02 -- 2017.06}
+{\emph{\hei 已完成}
 \begin{itemize}
-\item Came up with the idea to design an online Model UN system that connects all conferences, clubs, and MUNers together by facilitating oraganizers and participants of different conferences and clubs with one unified system.
-\item Led a team of 4 members to develop and run the Model UN platform, which has served 3 conferences, 170+ registered schools, and 2,000+ users, with 500+ maximum DAU (daily active users), 235,000+ total visits and 490,000+ CNY cash flow till July 2017.
-\end{itemize}}
+    \item \hei 语言：Java
+    \item \hei 平台：JavaFX
+    \item \hei 负责：后端Java爬虫，从地震发布网站爬取地震数据
+\end{itemize}
+{\hei 使用 Java GUI 对地震统计数据在地图和图表中进行可视化呈现。在这次项目中，除了学习 Java 语言，\\我还第一次独自学习了网络请求的发送与处理和 HTML 文档的分析与切片。这是 Java 编程2(高级)课\\程的三人组队项目。
+}}
 
 %------------------------------------------------
 
 \entry
-{\href{https://bjmun.cn}{Beijing Model United Nations Association for High School Students}}
-{Aug. 2016 -- Aug. 2017}
-{\emph{Director of Academics (English)}
+{\heir 航班预约系统}
+{2016.09 -- 2017.01}
+{\emph{\hei 已完成}
 \begin{itemize}
-\item Managed the largest MUN association in Beijing (60+ member schools) with 12 other co-organizers.
-\item Took charge of all facets of English committees in two largest Model UN conferences for high school students in Beijing, such as reviewing academic design, background guide, etc.
-\item Run the web, email, ns \& git server of the association.
-\end{itemize}}
+    \item \hei 语言：Java, HTML\&CSS, SQL
+    \item \hei 实现：JSP
+    \item \hei 负责：全栈开发
+\end{itemize}
+{\hei 领导一个三人小组一起开发一个航班预约系统，系统包括一些常用必要功能，比如用户注册，个人信息\\修改，航班搜索、预约、修改，管理员界面等。 此项目本是 Java 编程1(初级)课程的项目，而课程上\\没有涉及用户界面的知识，所以自学并使用了 JSP 这个可以运用 Java 知识以及 HTML 界面设计的技术\\，同时也使用到了 Material Design(MD) 这个优秀而美观的设计语言，后端使用 MySQL 实现简易的数\\据增查删改。
+}}
 
 %------------------------------------------------
-
-\entry
-{\href{https://chaoli.club}{Chaoli Forum}}
-{Nov. 2014 -- May. 2015}
-{\emph{Co-Founder \& Developer}
-\begin{itemize}
-\item Developed functions like documents uploading, CDN integration, customer feedback, etc. based on esoTalk, a no-longer maintained open source forum program, as a member of the initial development team and founding team of Chaoli forum, a forum for Math, Physics, Chemistry, and Informatics lovers, which now has 5,000+ users and 40,000+ threads.
-\end{itemize}}
-
-%------------------------------------------------
-
-
 
 \end{entrylist}
 

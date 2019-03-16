@@ -16,9 +16,8 @@
 \newtoks\revision
 
 \newcommand{\versionsection}{%
-    \section{last updated}\\
-    \today\\
-    Rev. \the\revision
+    \section{\heir 最后更新}\\
+    \today
 }
 
 %%%%%%%%%%
@@ -357,7 +356,7 @@
   pdfcreator={Adam Yi's modified XeLaTeX},
   pdfproducer={Adam Yi}
 }
-    
+
 % A fix for \href{}{} colors not working with fontspec
 \makeatletter
 \def\HyColor@@@@UseColor#1\@nil{\addfontfeatures{Color=#1}}
