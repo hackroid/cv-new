@@ -8,6 +8,8 @@ Hackroid's latest version resume made with XeLaTeX. It's forked from [**adamyi/c
 >
 > Both the original version and my revised version are open sourced under MIT license.
 
+中文版本请移至[master-cn](https://github.com/hackroid/cv-new/tree/master-cn)分支
+
 ## Usage
 
 Run `make both` to create the PDF.
