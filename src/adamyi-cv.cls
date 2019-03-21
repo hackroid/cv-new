@@ -350,11 +350,11 @@
   filecolor=red,
   urlcolor=red,
   pdftitle={CV},
-  pdfsubject={Adam Yi},
+  pdfsubject={Hackroid},
   pdfkeywords={Resume, CV},
-  pdfauthor={Adam Yi},
-  pdfcreator={Adam Yi's modified XeLaTeX},
-  pdfproducer={Adam Yi}
+  pdfauthor={Hackroid},
+  pdfcreator={Hackroid's modified XeLaTeX},
+  pdfproducer={Hackroid}
 }
 
 % A fix for \href{}{} colors not working with fontspec
