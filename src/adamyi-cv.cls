@@ -174,7 +174,7 @@
 \newcommand{\entry}[3]{%
   \item[\textbf{#1}]
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
+    {\footnotesize\addfontfeature{Color=darkgray} #2}\\%
     #3\vspace{0.8em}%
 }
 
